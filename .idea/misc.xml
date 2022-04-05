@@ -7,12 +7,14 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/activity-sendaward-service/sendaward-app/pom.xml" />
         <option value="$PROJECT_DIR$/activity-sendaward-service/sendaward-api/pom.xml" />
+        <option value="$PROJECT_DIR$/activity-bese-components/components-dubbo/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/activity-admin/pom.xml" />
         <option value="$PROJECT_DIR$/activity-base-server/pom.xml" />
+        <option value="$PROJECT_DIR$/activity-bese-components/components/pom.xml" />
         <option value="$PROJECT_DIR$/sendaward-api/pom.xml" />
       </set>
     </option>

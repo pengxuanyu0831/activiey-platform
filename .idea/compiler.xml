@@ -21,14 +21,17 @@
           <entry name="$MAVEN_REPOSITORY$/org/springframework/spring-context/4.0.3.RELEASE/spring-context-4.0.3.RELEASE.jar" />
           <entry name="$MAVEN_REPOSITORY$/joda-time/joda-time/2.9/joda-time-2.9.jar" />
         </processorPath>
-        <module name="sendaward-app" />
-        <module name="sendaward-api" />
         <module name="activity-sendaward-service" />
+        <module name="sendaward-app" />
+        <module name="components-dubbo" />
+        <module name="sendaward-api" />
+        <module name="activity-bese-components" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="activity-admin" target="11" />
       <module name="activity-base-server" target="11" />
+      <module name="components" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -36,7 +39,10 @@
       <module name="activity-admin" options="-parameters" />
       <module name="activity-base-dependencies" options="-parameters" />
       <module name="activity-base-server" options="-parameters" />
+      <module name="activity-bese-components" options="-parameters" />
       <module name="activity-sendaward-service" options="-parameters" />
+      <module name="components" options="-parameters" />
+      <module name="components-dubbo" options="-parameters" />
       <module name="sendaward-api" options="-parameters" />
       <module name="sendaward-app" options="-parameters" />
     </option>

@@ -10,24 +10,24 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>sendaward-app</artifactId>
+    <artifactId>components-dubbo</artifactId>
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
     </properties>
-
     <dependencies>
         <dependency>
-            <groupId>org.pxy</groupId>
-            <artifactId>components-dubbo</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <groupId>org.apache.dubbo</groupId>
+            <artifactId>dubbo-spring-boot-starter</artifactId>
+            <version>2.7.7</version>
         </dependency>
 
+        <!-- 日志相关 -->
         <dependency>
-            <groupId>org.pxy</groupId>
-            <artifactId>sendaward-api</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
         </dependency>
     </dependencies>
+
 </project>
