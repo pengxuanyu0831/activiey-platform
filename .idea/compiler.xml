@@ -2,7 +2,8 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
-      <profile name="Annotation profile for sendaward-api" enabled="true">
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Annotation profile for activity-platform" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
@@ -21,11 +22,14 @@
           <entry name="$MAVEN_REPOSITORY$/org/springframework/spring-context/4.0.3.RELEASE/spring-context-4.0.3.RELEASE.jar" />
           <entry name="$MAVEN_REPOSITORY$/joda-time/joda-time/2.9/joda-time-2.9.jar" />
         </processorPath>
-        <module name="activity-sendaward-service" />
         <module name="sendaward-app" />
+        <module name="activity-support-service" />
         <module name="components-dubbo" />
-        <module name="sendaward-api" />
         <module name="activity-bese-components" />
+        <module name="components-spring-web" />
+        <module name="activity-sendaward-service" />
+        <module name="components-framework" />
+        <module name="sendaward-api" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -41,8 +45,11 @@
       <module name="activity-base-server" options="-parameters" />
       <module name="activity-bese-components" options="-parameters" />
       <module name="activity-sendaward-service" options="-parameters" />
+      <module name="activity-support-service" options="-parameters" />
       <module name="components" options="-parameters" />
       <module name="components-dubbo" options="-parameters" />
+      <module name="components-framework" options="-parameters" />
+      <module name="components-spring-web" options="-parameters" />
       <module name="sendaward-api" options="-parameters" />
       <module name="sendaward-app" options="-parameters" />
     </option>

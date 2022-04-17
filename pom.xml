@@ -12,8 +12,7 @@
         <module>activity-base-dependencies</module>
         <module>activity-sendaward-service</module>
         <module>activity-bese-components</module>
-        <module>components</module>
-        <module>components-dubbo</module>
+        <module>activity-support-service</module>
     </modules>
 
     <properties>

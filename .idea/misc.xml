@@ -8,6 +8,8 @@
         <option value="$PROJECT_DIR$/activity-sendaward-service/sendaward-app/pom.xml" />
         <option value="$PROJECT_DIR$/activity-sendaward-service/sendaward-api/pom.xml" />
         <option value="$PROJECT_DIR$/activity-bese-components/components-dubbo/pom.xml" />
+        <option value="$PROJECT_DIR$/activity-bese-components/components-spring-web/pom.xml" />
+        <option value="$PROJECT_DIR$/activity-bese-components/components-framework/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
